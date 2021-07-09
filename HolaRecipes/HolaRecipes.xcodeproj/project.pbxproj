@@ -22,6 +22,17 @@
 		497596582698377F0066C7AC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497596562698377F0066C7AC /* UIColor+Extension.swift */; };
 		4975965B2698379E0066C7AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965A2698379E0066C7AC /* Constants.swift */; };
 		4975965D269847A50066C7AC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965C269847A50066C7AC /* Color.swift */; };
+		4975965F2698515B0066C7AC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965E2698515B0066C7AC /* Font.swift */; };
+		4975966B269851E80066C7AC /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759661269851E80066C7AC /* Lato-Italic.ttf */; };
+		4975966C269851E80066C7AC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759662269851E80066C7AC /* Lato-Bold.ttf */; };
+		4975966D269851E80066C7AC /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759663269851E80066C7AC /* ProximaNova-Bold.ttf */; };
+		4975966E269851E80066C7AC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759664269851E80066C7AC /* Lato-Regular.ttf */; };
+		4975966F269851E80066C7AC /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759665269851E80066C7AC /* Lato-Semibold.ttf */; };
+		49759670269851E80066C7AC /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759666269851E80066C7AC /* ProximaNova-Regular.ttf */; };
+		49759671269851E80066C7AC /* Rupee_Foradian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759667269851E80066C7AC /* Rupee_Foradian.ttf */; };
+		49759672269851E80066C7AC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759668269851E80066C7AC /* Lato-Light.ttf */; };
+		49759673269851E80066C7AC /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759669269851E80066C7AC /* Lato-Medium.ttf */; };
+		49759674269851E80066C7AC /* JennaSue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4975966A269851E80066C7AC /* JennaSue.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +54,17 @@
 		497596562698377F0066C7AC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		4975965A2698379E0066C7AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4975965C269847A50066C7AC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4975965E2698515B0066C7AC /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		49759661269851E80066C7AC /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		49759662269851E80066C7AC /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		49759663269851E80066C7AC /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.ttf"; sourceTree = "<group>"; };
+		49759664269851E80066C7AC /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		49759665269851E80066C7AC /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		49759666269851E80066C7AC /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.ttf"; sourceTree = "<group>"; };
+		49759667269851E80066C7AC /* Rupee_Foradian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rupee_Foradian.ttf; sourceTree = "<group>"; };
+		49759668269851E80066C7AC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		49759669269851E80066C7AC /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		4975966A269851E80066C7AC /* JennaSue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JennaSue.ttf; sourceTree = "<group>"; };
 		CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolaRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +108,7 @@
 				4975964B26982E040066C7AC /* Models */,
 				4975964F26982E760066C7AC /* Views */,
 				4975964D26982E240066C7AC /* Controllers */,
+				49759660269851E80066C7AC /* Resources */,
 				4975962F269825560066C7AC /* Products */,
 				49759637269825560066C7AC /* Main.storyboard */,
 				4975963A269825580066C7AC /* Assets.xcassets */,
@@ -151,9 +174,28 @@
 			children = (
 				4975965A2698379E0066C7AC /* Constants.swift */,
 				4975965C269847A50066C7AC /* Color.swift */,
+				4975965E2698515B0066C7AC /* Font.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
+		};
+		49759660269851E80066C7AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49759661269851E80066C7AC /* Lato-Italic.ttf */,
+				49759662269851E80066C7AC /* Lato-Bold.ttf */,
+				49759663269851E80066C7AC /* ProximaNova-Bold.ttf */,
+				49759664269851E80066C7AC /* Lato-Regular.ttf */,
+				49759665269851E80066C7AC /* Lato-Semibold.ttf */,
+				49759666269851E80066C7AC /* ProximaNova-Regular.ttf */,
+				49759667269851E80066C7AC /* Rupee_Foradian.ttf */,
+				49759668269851E80066C7AC /* Lato-Light.ttf */,
+				49759669269851E80066C7AC /* Lato-Medium.ttf */,
+				4975966A269851E80066C7AC /* JennaSue.ttf */,
+			);
+			name = Resources;
+			path = HolaRecipes/Resources;
+			sourceTree = SOURCE_ROOT;
 		};
 		5B4181C5EB25CE6E2AA3E72B /* Pods */ = {
 			isa = PBXGroup;
@@ -231,8 +273,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4975966B269851E80066C7AC /* Lato-Italic.ttf in Resources */,
+				49759673269851E80066C7AC /* Lato-Medium.ttf in Resources */,
+				4975966C269851E80066C7AC /* Lato-Bold.ttf in Resources */,
+				4975966F269851E80066C7AC /* Lato-Semibold.ttf in Resources */,
+				49759672269851E80066C7AC /* Lato-Light.ttf in Resources */,
+				49759674269851E80066C7AC /* JennaSue.ttf in Resources */,
 				4975963E269825580066C7AC /* LaunchScreen.storyboard in Resources */,
+				4975966E269851E80066C7AC /* Lato-Regular.ttf in Resources */,
 				4975963B269825580066C7AC /* Assets.xcassets in Resources */,
+				49759670269851E80066C7AC /* ProximaNova-Regular.ttf in Resources */,
+				4975966D269851E80066C7AC /* ProximaNova-Bold.ttf in Resources */,
+				49759671269851E80066C7AC /* Rupee_Foradian.ttf in Resources */,
 				49759639269825560066C7AC /* Main.storyboard in Resources */,
 				4975965326982E870066C7AC /* RecipeCell.xib in Resources */,
 			);
@@ -288,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				497596572698377F0066C7AC /* UIView+Extension.swift in Sources */,
+				4975965F2698515B0066C7AC /* Font.swift in Sources */,
 				49759636269825560066C7AC /* RecipeListVC.swift in Sources */,
 				49759632269825560066C7AC /* AppDelegate.swift in Sources */,
 				4975965D269847A50066C7AC /* Color.swift in Sources */,

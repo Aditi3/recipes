@@ -30,6 +30,20 @@
 	<array>
 		<string>armv7</string>
 	</array>
+    <key>UIAppFonts</key>
+    <array>
+        <string>Rupee_Foradian.ttf</string>
+        <string>JennaSue.ttf</string>
+        <string>BreeSerif-Regular.ttf</string>
+        <string>ProximaNova-Regular.ttf</string>
+        <string>Lato-Regular.ttf</string>
+        <string>Lato-Semibold.ttf</string>
+        <string>Lato-Light.ttf</string>
+        <string>Lato-Italic.ttf</string>
+        <string>Lato-Bold.ttf</string>
+        <string>ProximaNova-Bold.ttf</string>
+        <string>Lato-Medium.ttf</string>
+    </array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
