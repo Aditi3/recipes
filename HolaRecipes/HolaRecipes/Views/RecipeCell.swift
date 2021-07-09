@@ -18,6 +18,7 @@ class RecipeCell: UITableViewCell {
     @IBOutlet weak var getRecipeButton: UIButton!
     @IBOutlet weak var difficulty: FloatRatingView!
     
+    
     // MARK: - Life Cycle
 
     override func awakeFromNib() {
@@ -45,7 +46,7 @@ class RecipeCell: UITableViewCell {
 //        self.backgroundColor = K.Color.CoolWhite
         // recipe name setup
         self.nameLabel.textColor = Color.WarmGrey
-        self.nameLabel.font = Font.boldFontWithSize(ofSize: 22.0)
+        self.nameLabel.font = Font.boldFontWithSize(ofSize: 24.0)
         
         // recipe headline setup
         self.headlineLabel.textColor = Color.WarmGrey
@@ -68,11 +69,12 @@ class RecipeCell: UITableViewCell {
         self.difficulty.isUserInteractionEnabled = false
     }
     
+    
     // MARK: - Load and Configure Recipe data
     
     func configureRecipeCell(recipe: Recipe) {
-        let url = URL(string: recipe.image)
-        self.recipeImageView.kf.setImage(with: url)
+        /// Update the Cell Layouts
+        self.recipeImageView.kf.setImage(with: URL(string: recipe.image))
         self.nameLabel.text = recipe.name
         self.headlineLabel.text = recipe.headline
         self.descLabel.text = recipe.recipeDescription

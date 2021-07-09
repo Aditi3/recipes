@@ -13,7 +13,7 @@ struct Recipe: Codable {
     let recipeDescription: String
     let difficulty: Int
     let headline, id, image, name: String
-
+    
     enum CodingKeys: String, CodingKey {
         case recipeDescription = "description"
         case difficulty, headline, id, image, name

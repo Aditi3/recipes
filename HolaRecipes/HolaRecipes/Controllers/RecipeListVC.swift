@@ -21,18 +21,29 @@ class RecipeListVC: UIViewController {
         getRecipes()
     }
     
+    
     // MARK: - Set/ Update to UI
-
+    
     /// Setup View properties of RecipeVC
     func setUpLayout() {
-        self.recipeTableView.separatorStyle = .none
-        self.recipeTableView.allowsSelection = false
+        
+        self.title = K.getDate()
+        if let navigationBar = self.navigationController?.navigationBar {
+            navigationBar.barStyle = UIBarStyle.default;
+            navigationBar.barTintColor = Color.Purple
+            navigationBar.backgroundColor = Color.Purple
+            navigationBar.isTranslucent = false
+            navigationBar.prefersLargeTitles = true
+        }
     }
     
     /// Configure TableView properties
     func configureTableView() {
         self.recipeTableView.delegate = self
         self.recipeTableView.dataSource = self
+        
+        self.recipeTableView.separatorStyle = .none
+        self.recipeTableView.allowsSelection = false
     }
     
     /// Register the Tableview Cell XIB
@@ -68,23 +79,7 @@ class RecipeListVC: UIViewController {
 }
 
 extension RecipeListVC:  UITableViewDataSource, UITableViewDelegate {
-    
-    //    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-    //        let headerView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: tableView.frame.width, height: 64))
-    //        let dateLabel = UILabel()
-    //        dateLabel.frame = CGRect.init(x: 10, y: 5, width: headerView.frame.width-20, height: headerView.frame.height-10)
-    //        dateLabel.numberOfLines = 0
-    //        dateLabel.font = UIFont.boldSystemFont(ofSize: 18)
-    //        dateLabel.text = ("Today is \(Utils.getDate())")
-    //        headerView.backgroundColor = UIColor.white
-    //        headerView.addSubview(dateLabel)
-    //        return headerView
-    //    }
-    
-//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        return 64
-//    }
-    
+   
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }

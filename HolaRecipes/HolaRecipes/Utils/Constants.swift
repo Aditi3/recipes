@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 struct K {
-        
+    
     static let AppName = "Recipes"
     
     struct API {
@@ -20,5 +20,11 @@ struct K {
         static let recipeCell = "recipeCell"
     }
     
-   
+    static func getDate() -> String {
+        let date = Date.init()
+        let formatter = DateFormatter()
+        formatter.dateFormat = "EEEE, d MMMM"
+        return formatter.string(from: date as Date)
+    }
+    
 }
