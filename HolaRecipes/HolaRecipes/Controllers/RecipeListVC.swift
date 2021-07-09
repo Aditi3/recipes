@@ -15,24 +15,34 @@ class RecipeListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        
-        registerCell()
         setUpLayout()
+        registerCell()
+        configureTableView()
         getRecipes()
     }
     
-    func registerCell() {
-        self.recipeTableView.register(UINib(nibName: "RecipeCell", bundle: Bundle.main), forCellReuseIdentifier: "recipeCell")
-    }
-    
+    // MARK: - Set/ Update to UI
+
+    /// Setup View properties of RecipeVC
     func setUpLayout() {
         self.recipeTableView.separatorStyle = .none
         self.recipeTableView.allowsSelection = false
-        
+    }
+    
+    /// Configure TableView properties
+    func configureTableView() {
         self.recipeTableView.delegate = self
         self.recipeTableView.dataSource = self
     }
     
+    /// Register the Tableview Cell XIB
+    func registerCell() {
+        self.recipeTableView.register(UINib(nibName: "RecipeCell", bundle: Bundle.main), forCellReuseIdentifier: "recipeCell")
+    }
+    
+    // MARK: - Request Recipes API
+    
+    /// Request to fetch the Recipes List
     func getRecipes() {
         ///[weak self]  ensures that once the completion handler returns some code, the app can release the memory
         RecipeManager().fetchRecipes { [weak self] recipes in
@@ -71,9 +81,9 @@ extension RecipeListVC:  UITableViewDataSource, UITableViewDelegate {
     //        return headerView
     //    }
     
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 64
-    }
+//    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//        return 64
+//    }
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1

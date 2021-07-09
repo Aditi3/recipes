@@ -40,7 +40,7 @@ class RecipeCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    // MARK: - Setup
+    // MARK: - Setup UI
     
     func setUpLayout() {
         
@@ -70,10 +70,9 @@ class RecipeCell: UITableViewCell {
         self.difficulty.isUserInteractionEnabled = false
     }
     
-    // MARK: - Load data
+    // MARK: - Load and Configure Recipe data
     
     func configureRecipeCell(recipe: Recipe) {
-        
         let url = URL(string: recipe.image)
         self.recipeImageView.kf.setImage(with: url)
         self.nameLabel.text = recipe.name
