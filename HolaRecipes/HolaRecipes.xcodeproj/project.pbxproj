@@ -3,21 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF0D75D026FBF3EC8666F41 /* Pods_HolaRecipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */; };
 		49759632269825560066C7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759631269825560066C7AC /* AppDelegate.swift */; };
 		49759636269825560066C7AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759635269825560066C7AC /* ViewController.swift */; };
 		49759639269825560066C7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49759637269825560066C7AC /* Main.storyboard */; };
 		4975963B269825580066C7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4975963A269825580066C7AC /* Assets.xcassets */; };
 		4975963E269825580066C7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4975963C269825580066C7AC /* LaunchScreen.storyboard */; };
-		49759646269826230066C7AC /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759645269826230066C7AC /* RecipeData.swift */; };
+		49759646269826230066C7AC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759645269826230066C7AC /* Recipe.swift */; };
 		49759648269826970066C7AC /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759647269826970066C7AC /* RecipeManager.swift */; };
 		4975964A269826BD0066C7AC /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759649269826BD0066C7AC /* NetworkHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		271522646B33EB74C03A53E1 /* Pods-HolaRecipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolaRecipes.debug.xcconfig"; path = "Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes.debug.xcconfig"; sourceTree = "<group>"; };
+		4143057BD92413909053BAE6 /* Pods-HolaRecipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolaRecipes.release.xcconfig"; path = "Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes.release.xcconfig"; sourceTree = "<group>"; };
 		4975962E269825560066C7AC /* HolaRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49759631269825560066C7AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49759635269825560066C7AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,9 +28,10 @@
 		4975963A269825580066C7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4975963D269825580066C7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4975963F269825580066C7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49759645269826230066C7AC /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		49759645269826230066C7AC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		49759647269826970066C7AC /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
 		49759649269826BD0066C7AC /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolaRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF0D75D026FBF3EC8666F41 /* Pods_HolaRecipes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				49759630269825560066C7AC /* HolaRecipes */,
+				5B4181C5EB25CE6E2AA3E72B /* Pods */,
+				AADEBC9A4806AC12F6B9353C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +69,7 @@
 			children = (
 				49759631269825560066C7AC /* AppDelegate.swift */,
 				49759635269825560066C7AC /* ViewController.swift */,
-				49759645269826230066C7AC /* RecipeData.swift */,
+				49759645269826230066C7AC /* Recipe.swift */,
 				49759647269826970066C7AC /* RecipeManager.swift */,
 				49759649269826BD0066C7AC /* NetworkHandler.swift */,
 				4975962F269825560066C7AC /* Products */,
@@ -74,6 +81,23 @@
 			path = HolaRecipes;
 			sourceTree = "<group>";
 		};
+		5B4181C5EB25CE6E2AA3E72B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				271522646B33EB74C03A53E1 /* Pods-HolaRecipes.debug.xcconfig */,
+				4143057BD92413909053BAE6 /* Pods-HolaRecipes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AADEBC9A4806AC12F6B9353C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +105,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 49759642269825580066C7AC /* Build configuration list for PBXNativeTarget "HolaRecipes" */;
 			buildPhases = (
+				C81ECD0F6D6F977F1C3B9EE5 /* [CP] Check Pods Manifest.lock */,
 				4975962A269825560066C7AC /* Sources */,
 				4975962B269825560066C7AC /* Frameworks */,
 				4975962C269825560066C7AC /* Resources */,
+				9DF8DC9AC6DF46F931D80ECB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +165,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DF8DC9AC6DF46F931D80ECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81ECD0F6D6F977F1C3B9EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolaRecipes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4975962A269825560066C7AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -146,7 +214,7 @@
 			files = (
 				49759636269825560066C7AC /* ViewController.swift in Sources */,
 				49759632269825560066C7AC /* AppDelegate.swift in Sources */,
-				49759646269826230066C7AC /* RecipeData.swift in Sources */,
+				49759646269826230066C7AC /* Recipe.swift in Sources */,
 				4975964A269826BD0066C7AC /* NetworkHandler.swift in Sources */,
 				49759648269826970066C7AC /* RecipeManager.swift in Sources */,
 			);
@@ -292,6 +360,7 @@
 		};
 		49759643269825580066C7AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271522646B33EB74C03A53E1 /* Pods-HolaRecipes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +379,7 @@
 		};
 		49759644269825580066C7AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4143057BD92413909053BAE6 /* Pods-HolaRecipes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
