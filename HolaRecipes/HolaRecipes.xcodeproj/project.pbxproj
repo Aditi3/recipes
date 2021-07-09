@@ -12,6 +12,9 @@
 		49759639269825560066C7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49759637269825560066C7AC /* Main.storyboard */; };
 		4975963B269825580066C7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4975963A269825580066C7AC /* Assets.xcassets */; };
 		4975963E269825580066C7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4975963C269825580066C7AC /* LaunchScreen.storyboard */; };
+		49759646269826230066C7AC /* RecipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759645269826230066C7AC /* RecipeData.swift */; };
+		49759648269826970066C7AC /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759647269826970066C7AC /* RecipeManager.swift */; };
+		4975964A269826BD0066C7AC /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759649269826BD0066C7AC /* NetworkHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4975963A269825580066C7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4975963D269825580066C7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4975963F269825580066C7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49759645269826230066C7AC /* RecipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeData.swift; sourceTree = "<group>"; };
+		49759647269826970066C7AC /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		49759649269826BD0066C7AC /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				49759630269825560066C7AC /* HolaRecipes */,
-				4975962F269825560066C7AC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +54,7 @@
 				4975962E269825560066C7AC /* HolaRecipes.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		49759630269825560066C7AC /* HolaRecipes */ = {
@@ -56,6 +62,10 @@
 			children = (
 				49759631269825560066C7AC /* AppDelegate.swift */,
 				49759635269825560066C7AC /* ViewController.swift */,
+				49759645269826230066C7AC /* RecipeData.swift */,
+				49759647269826970066C7AC /* RecipeManager.swift */,
+				49759649269826BD0066C7AC /* NetworkHandler.swift */,
+				4975962F269825560066C7AC /* Products */,
 				49759637269825560066C7AC /* Main.storyboard */,
 				4975963A269825580066C7AC /* Assets.xcassets */,
 				4975963C269825580066C7AC /* LaunchScreen.storyboard */,
@@ -136,6 +146,9 @@
 			files = (
 				49759636269825560066C7AC /* ViewController.swift in Sources */,
 				49759632269825560066C7AC /* AppDelegate.swift in Sources */,
+				49759646269826230066C7AC /* RecipeData.swift in Sources */,
+				4975964A269826BD0066C7AC /* NetworkHandler.swift in Sources */,
+				49759648269826970066C7AC /* RecipeManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
