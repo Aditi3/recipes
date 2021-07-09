@@ -74,7 +74,7 @@ class RecipeCell: UITableViewCell {
     
     func configureRecipeCell(recipe: Recipe) {
         /// Update the Cell Layouts
-        self.recipeImageView.kf.setImage(with: URL(string: recipe.image))
+        self.recipeImageView.kf.setImage(with: URL(string: recipe.image), placeholder: UIImage(named: "recipe_default"))
         self.nameLabel.text = recipe.name
         self.headlineLabel.text = recipe.headline
         self.descLabel.text = recipe.recipeDescription
