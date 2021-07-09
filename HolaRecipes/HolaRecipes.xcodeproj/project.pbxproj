@@ -67,11 +67,10 @@
 		49759630269825560066C7AC /* HolaRecipes */ = {
 			isa = PBXGroup;
 			children = (
-				49759631269825560066C7AC /* AppDelegate.swift */,
-				49759635269825560066C7AC /* ViewController.swift */,
-				49759645269826230066C7AC /* Recipe.swift */,
-				49759647269826970066C7AC /* RecipeManager.swift */,
-				49759649269826BD0066C7AC /* NetworkHandler.swift */,
+				4975964E26982E350066C7AC /* App */,
+				4975964D26982E240066C7AC /* Controllers */,
+				4975964C26982E0B0066C7AC /* Network */,
+				4975964B26982E040066C7AC /* Models */,
 				4975962F269825560066C7AC /* Products */,
 				49759637269825560066C7AC /* Main.storyboard */,
 				4975963A269825580066C7AC /* Assets.xcassets */,
@@ -79,6 +78,39 @@
 				4975963F269825580066C7AC /* Info.plist */,
 			);
 			path = HolaRecipes;
+			sourceTree = "<group>";
+		};
+		4975964B26982E040066C7AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49759645269826230066C7AC /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4975964C26982E0B0066C7AC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				49759647269826970066C7AC /* RecipeManager.swift */,
+				49759649269826BD0066C7AC /* NetworkHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4975964D26982E240066C7AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49759635269825560066C7AC /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4975964E26982E350066C7AC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49759631269825560066C7AC /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		5B4181C5EB25CE6E2AA3E72B /* Pods */ = {
