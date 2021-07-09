@@ -11,7 +11,6 @@ import FloatRatingView
 
 class RecipeCell: UITableViewCell {
     
-    @IBOutlet weak var containerView: UIView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var descLabel: UILabel!
     @IBOutlet weak var headlineLabel: UILabel!
@@ -30,8 +29,6 @@ class RecipeCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         // container setup card layout
-        self.containerView.layoutIfNeeded()
-        self.containerView.addCardLayer()
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -45,18 +42,18 @@ class RecipeCell: UITableViewCell {
     
     func setUpLayout() {
         
-        self.backgroundColor = K.Color.background
+//        self.backgroundColor = K.Color.CoolWhite
         // recipe name setup
-        self.nameLabel.textColor = K.Color.main
-        self.nameLabel.font = UIFont.boldSystemFont(ofSize: 18)
+        self.nameLabel.textColor = K.Color.CoolGrey
+        self.nameLabel.font = UIFont.boldSystemFont(ofSize: 20)
         
         // recipe headline setup
-        self.headlineLabel.textColor = K.Color.main
-        self.headlineLabel.font = UIFont.italicSystemFont(ofSize: 14)
+        self.headlineLabel.textColor = K.Color.CoolGrey
+        self.headlineLabel.font = UIFont.italicSystemFont(ofSize: 16)
         
         // recipe description setup
-        self.descLabel.textColor = K.Color.main
-        self.descLabel.font = UIFont.systemFont(ofSize: 12, weight: .medium)
+        self.descLabel.textColor = K.Color.CoolGrey
+        self.descLabel.font = UIFont.systemFont(ofSize: 14, weight: .medium)
         
         // get recipe button setup
         self.getRecipeButton.setBackgroundImage(UIImage(named: "button"), for: .normal)

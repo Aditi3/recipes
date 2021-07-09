@@ -10,7 +10,7 @@ import Foundation
 /// Handles the request related to Recipe API
 class RecipeManager {
     
-    let recipeUrl = "https://raw.githubusercontent.com/Aditi3/recipes/develop/recipes.json"
+    let recipeUrl = "\(K.API.baseApiUrl)/recipes/develop/recipes.json"
     
     // MARK: -  Fetch and Handle Recipe Request
     

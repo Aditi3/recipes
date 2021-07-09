@@ -37,7 +37,7 @@ class RecipeListVC: UIViewController {
     
     /// Register the Tableview Cell XIB
     func registerCell() {
-        self.recipeTableView.register(UINib(nibName: "RecipeCell", bundle: Bundle.main), forCellReuseIdentifier: "recipeCell")
+        self.recipeTableView.register(UINib(nibName: "RecipeCell", bundle: Bundle.main), forCellReuseIdentifier: K.CellIdentifier.recipeCell)
     }
     
     // MARK: - Request Recipes API
@@ -94,7 +94,7 @@ extension RecipeListVC:  UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "recipeCell" , for: indexPath) as! RecipeCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: K.CellIdentifier.recipeCell , for: indexPath) as! RecipeCell
         cell.configureRecipeCell(recipe: recipes[indexPath.row])
         return cell
     }
