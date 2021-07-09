@@ -21,6 +21,7 @@
 		497596572698377F0066C7AC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497596552698377F0066C7AC /* UIView+Extension.swift */; };
 		497596582698377F0066C7AC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497596562698377F0066C7AC /* UIColor+Extension.swift */; };
 		4975965B2698379E0066C7AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965A2698379E0066C7AC /* Constants.swift */; };
+		4975965D269847A50066C7AC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965C269847A50066C7AC /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		497596552698377F0066C7AC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		497596562698377F0066C7AC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		4975965A2698379E0066C7AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4975965C269847A50066C7AC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolaRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				4975965A2698379E0066C7AC /* Constants.swift */,
+				4975965C269847A50066C7AC /* Color.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				497596572698377F0066C7AC /* UIView+Extension.swift in Sources */,
 				49759636269825560066C7AC /* RecipeListVC.swift in Sources */,
 				49759632269825560066C7AC /* AppDelegate.swift in Sources */,
+				4975965D269847A50066C7AC /* Color.swift in Sources */,
 				497596582698377F0066C7AC /* UIColor+Extension.swift in Sources */,
 				49759646269826230066C7AC /* Recipe.swift in Sources */,
 				4975965226982E870066C7AC /* RecipeCell.swift in Sources */,

@@ -19,6 +19,6 @@ extension UIView {
         self.layer.shadowPath = UIBezierPath(rect:self.bounds).cgPath
         self.layer.shadowOpacity = 0.5
         self.layer.borderWidth = 0.0
-        self.layer.borderColor = K.Color.pinkishGrey.cgColor
+        self.layer.borderColor = Color.pinkishGrey.cgColor
     }
 }

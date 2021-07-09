@@ -44,19 +44,19 @@ class RecipeCell: UITableViewCell {
         
 //        self.backgroundColor = K.Color.CoolWhite
         // recipe name setup
-        self.nameLabel.textColor = K.Color.CoolGrey
+        self.nameLabel.textColor = Color.CoolGrey
         self.nameLabel.font = UIFont.boldSystemFont(ofSize: 20)
         
         // recipe headline setup
-        self.headlineLabel.textColor = K.Color.CoolGrey
+        self.headlineLabel.textColor = Color.CoolGrey
         self.headlineLabel.font = UIFont.italicSystemFont(ofSize: 16)
         
         // recipe description setup
-        self.descLabel.textColor = K.Color.CoolGrey
+        self.descLabel.textColor = Color.CoolGrey
         self.descLabel.font = UIFont.systemFont(ofSize: 14, weight: .medium)
         
         // get recipe button setup
-        self.getRecipeButton.setBackgroundImage(UIImage(named: "button"), for: .normal)
+        self.getRecipeButton.backgroundColor = Color.JadeGreen
         self.getRecipeButton.layer.cornerRadius = 3.0
         
         // recipe image view setup
