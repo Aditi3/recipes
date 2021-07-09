@@ -1,8 +1,8 @@
 //
-//  HRRecipeCell.swift
-//  HelloRecipes
+//  RecipeCell.swift
+//  HolaRecipes
 //
-//  Created by Aditi Agrawal on 17/10/20.
+//  Created by Aditi Agrawal on 09/07/21.
 //
 
 import UIKit
@@ -30,8 +30,8 @@ class RecipeCell: UITableViewCell {
     override func layoutSubviews() {
         super.layoutSubviews()
         // container setup card layout
-        self.containerView?.layoutIfNeeded()
-//        self.containerView?.addCardLayer()
+        self.containerView.layoutIfNeeded()
+        self.containerView.addCardLayer()
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -40,21 +40,22 @@ class RecipeCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    
     // MARK: - Setup UI
     
     func setUpLayout() {
         
-//        self.backgroundColor = Utils.Color.background
+        self.backgroundColor = K.Color.background
         // recipe name setup
-//        self.nameLabel.textColor = Utils.Color.main
+        self.nameLabel.textColor = K.Color.main
         self.nameLabel.font = UIFont.boldSystemFont(ofSize: 18)
         
         // recipe headline setup
-//        self.headlineLabel.textColor = Utils.Color.main
+        self.headlineLabel.textColor = K.Color.main
         self.headlineLabel.font = UIFont.italicSystemFont(ofSize: 14)
         
         // recipe description setup
-//        self.descLabel.textColor = Utils.Color.main
+        self.descLabel.textColor = K.Color.main
         self.descLabel.font = UIFont.systemFont(ofSize: 12, weight: .medium)
         
         // get recipe button setup
