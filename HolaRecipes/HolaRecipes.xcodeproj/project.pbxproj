@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FF0D75D026FBF3EC8666F41 /* Pods_HolaRecipes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */; };
+		49759632269825560066C7AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759631269825560066C7AC /* AppDelegate.swift */; };
+		49759636269825560066C7AC /* RecipeListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759635269825560066C7AC /* RecipeListVC.swift */; };
+		49759639269825560066C7AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49759637269825560066C7AC /* Main.storyboard */; };
+		4975963B269825580066C7AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4975963A269825580066C7AC /* Assets.xcassets */; };
+		4975963E269825580066C7AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4975963C269825580066C7AC /* LaunchScreen.storyboard */; };
+		49759646269826230066C7AC /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759645269826230066C7AC /* Recipe.swift */; };
+		49759648269826970066C7AC /* RecipeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759647269826970066C7AC /* RecipeManager.swift */; };
+		4975964A269826BD0066C7AC /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49759649269826BD0066C7AC /* NetworkHandler.swift */; };
+		4975965226982E870066C7AC /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965026982E870066C7AC /* RecipeCell.swift */; };
+		4975965326982E870066C7AC /* RecipeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4975965126982E870066C7AC /* RecipeCell.xib */; };
+		497596572698377F0066C7AC /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497596552698377F0066C7AC /* UIView+Extension.swift */; };
+		497596582698377F0066C7AC /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497596562698377F0066C7AC /* UIColor+Extension.swift */; };
+		4975965B2698379E0066C7AC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965A2698379E0066C7AC /* Constants.swift */; };
+		4975965D269847A50066C7AC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965C269847A50066C7AC /* Color.swift */; };
+		4975965F2698515B0066C7AC /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4975965E2698515B0066C7AC /* Font.swift */; };
+		4975966B269851E80066C7AC /* Lato-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759661269851E80066C7AC /* Lato-Italic.ttf */; };
+		4975966C269851E80066C7AC /* Lato-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759662269851E80066C7AC /* Lato-Bold.ttf */; };
+		4975966D269851E80066C7AC /* ProximaNova-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759663269851E80066C7AC /* ProximaNova-Bold.ttf */; };
+		4975966E269851E80066C7AC /* Lato-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759664269851E80066C7AC /* Lato-Regular.ttf */; };
+		4975966F269851E80066C7AC /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759665269851E80066C7AC /* Lato-Semibold.ttf */; };
+		49759670269851E80066C7AC /* ProximaNova-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759666269851E80066C7AC /* ProximaNova-Regular.ttf */; };
+		49759671269851E80066C7AC /* Rupee_Foradian.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759667269851E80066C7AC /* Rupee_Foradian.ttf */; };
+		49759672269851E80066C7AC /* Lato-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759668269851E80066C7AC /* Lato-Light.ttf */; };
+		49759673269851E80066C7AC /* Lato-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 49759669269851E80066C7AC /* Lato-Medium.ttf */; };
+		49759674269851E80066C7AC /* JennaSue.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4975966A269851E80066C7AC /* JennaSue.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		271522646B33EB74C03A53E1 /* Pods-HolaRecipes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolaRecipes.debug.xcconfig"; path = "Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes.debug.xcconfig"; sourceTree = "<group>"; };
+		4143057BD92413909053BAE6 /* Pods-HolaRecipes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolaRecipes.release.xcconfig"; path = "Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes.release.xcconfig"; sourceTree = "<group>"; };
+		4975962E269825560066C7AC /* HolaRecipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolaRecipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49759631269825560066C7AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49759635269825560066C7AC /* RecipeListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListVC.swift; sourceTree = "<group>"; };
+		49759638269825560066C7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4975963A269825580066C7AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4975963D269825580066C7AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4975963F269825580066C7AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49759645269826230066C7AC /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		49759647269826970066C7AC /* RecipeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeManager.swift; sourceTree = "<group>"; };
+		49759649269826BD0066C7AC /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		4975965026982E870066C7AC /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		4975965126982E870066C7AC /* RecipeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecipeCell.xib; sourceTree = "<group>"; };
+		497596552698377F0066C7AC /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		497596562698377F0066C7AC /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4975965A2698379E0066C7AC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4975965C269847A50066C7AC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4975965E2698515B0066C7AC /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		49759661269851E80066C7AC /* Lato-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Italic.ttf"; sourceTree = "<group>"; };
+		49759662269851E80066C7AC /* Lato-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Bold.ttf"; sourceTree = "<group>"; };
+		49759663269851E80066C7AC /* ProximaNova-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Bold.ttf"; sourceTree = "<group>"; };
+		49759664269851E80066C7AC /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		49759665269851E80066C7AC /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		49759666269851E80066C7AC /* ProximaNova-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.ttf"; sourceTree = "<group>"; };
+		49759667269851E80066C7AC /* Rupee_Foradian.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rupee_Foradian.ttf; sourceTree = "<group>"; };
+		49759668269851E80066C7AC /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		49759669269851E80066C7AC /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		4975966A269851E80066C7AC /* JennaSue.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = JennaSue.ttf; sourceTree = "<group>"; };
+		CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolaRecipes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4975962B269825560066C7AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FF0D75D026FBF3EC8666F41 /* Pods_HolaRecipes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49759625269825560066C7AC = {
+			isa = PBXGroup;
+			children = (
+				49759630269825560066C7AC /* HolaRecipes */,
+				5B4181C5EB25CE6E2AA3E72B /* Pods */,
+				AADEBC9A4806AC12F6B9353C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4975962F269825560066C7AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4975962E269825560066C7AC /* HolaRecipes.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		49759630269825560066C7AC /* HolaRecipes */ = {
+			isa = PBXGroup;
+			children = (
+				4975964E26982E350066C7AC /* App */,
+				497596592698378B0066C7AC /* Utils */,
+				49759654269837710066C7AC /* Extensions */,
+				4975964C26982E0B0066C7AC /* Network */,
+				4975964B26982E040066C7AC /* Models */,
+				4975964F26982E760066C7AC /* Views */,
+				4975964D26982E240066C7AC /* Controllers */,
+				49759660269851E80066C7AC /* Resources */,
+				4975962F269825560066C7AC /* Products */,
+				49759637269825560066C7AC /* Main.storyboard */,
+				4975963A269825580066C7AC /* Assets.xcassets */,
+				4975963C269825580066C7AC /* LaunchScreen.storyboard */,
+				4975963F269825580066C7AC /* Info.plist */,
+			);
+			path = HolaRecipes;
+			sourceTree = "<group>";
+		};
+		4975964B26982E040066C7AC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49759645269826230066C7AC /* Recipe.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4975964C26982E0B0066C7AC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				49759647269826970066C7AC /* RecipeManager.swift */,
+				49759649269826BD0066C7AC /* NetworkHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4975964D26982E240066C7AC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				49759635269825560066C7AC /* RecipeListVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4975964E26982E350066C7AC /* App */ = {
+			isa = PBXGroup;
+			children = (
+				49759631269825560066C7AC /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4975964F26982E760066C7AC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4975965026982E870066C7AC /* RecipeCell.swift */,
+				4975965126982E870066C7AC /* RecipeCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		49759654269837710066C7AC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				497596562698377F0066C7AC /* UIColor+Extension.swift */,
+				497596552698377F0066C7AC /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		497596592698378B0066C7AC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4975965A2698379E0066C7AC /* Constants.swift */,
+				4975965C269847A50066C7AC /* Color.swift */,
+				4975965E2698515B0066C7AC /* Font.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		49759660269851E80066C7AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49759661269851E80066C7AC /* Lato-Italic.ttf */,
+				49759662269851E80066C7AC /* Lato-Bold.ttf */,
+				49759663269851E80066C7AC /* ProximaNova-Bold.ttf */,
+				49759664269851E80066C7AC /* Lato-Regular.ttf */,
+				49759665269851E80066C7AC /* Lato-Semibold.ttf */,
+				49759666269851E80066C7AC /* ProximaNova-Regular.ttf */,
+				49759667269851E80066C7AC /* Rupee_Foradian.ttf */,
+				49759668269851E80066C7AC /* Lato-Light.ttf */,
+				49759669269851E80066C7AC /* Lato-Medium.ttf */,
+				4975966A269851E80066C7AC /* JennaSue.ttf */,
+			);
+			name = Resources;
+			path = HolaRecipes/Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		5B4181C5EB25CE6E2AA3E72B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				271522646B33EB74C03A53E1 /* Pods-HolaRecipes.debug.xcconfig */,
+				4143057BD92413909053BAE6 /* Pods-HolaRecipes.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AADEBC9A4806AC12F6B9353C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCC776506BAD70B7FE7F4231 /* Pods_HolaRecipes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4975962D269825560066C7AC /* HolaRecipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49759642269825580066C7AC /* Build configuration list for PBXNativeTarget "HolaRecipes" */;
+			buildPhases = (
+				C81ECD0F6D6F977F1C3B9EE5 /* [CP] Check Pods Manifest.lock */,
+				4975962A269825560066C7AC /* Sources */,
+				4975962B269825560066C7AC /* Frameworks */,
+				4975962C269825560066C7AC /* Resources */,
+				9DF8DC9AC6DF46F931D80ECB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolaRecipes;
+			productName = HolaRecipes;
+			productReference = 4975962E269825560066C7AC /* HolaRecipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49759626269825560066C7AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4975962D269825560066C7AC = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 49759629269825560066C7AC /* Build configuration list for PBXProject "HolaRecipes" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49759625269825560066C7AC;
+			productRefGroup = 4975962F269825560066C7AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4975962D269825560066C7AC /* HolaRecipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4975962C269825560066C7AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4975966B269851E80066C7AC /* Lato-Italic.ttf in Resources */,
+				49759673269851E80066C7AC /* Lato-Medium.ttf in Resources */,
+				4975966C269851E80066C7AC /* Lato-Bold.ttf in Resources */,
+				4975966F269851E80066C7AC /* Lato-Semibold.ttf in Resources */,
+				49759672269851E80066C7AC /* Lato-Light.ttf in Resources */,
+				49759674269851E80066C7AC /* JennaSue.ttf in Resources */,
+				4975963E269825580066C7AC /* LaunchScreen.storyboard in Resources */,
+				4975966E269851E80066C7AC /* Lato-Regular.ttf in Resources */,
+				4975963B269825580066C7AC /* Assets.xcassets in Resources */,
+				49759670269851E80066C7AC /* ProximaNova-Regular.ttf in Resources */,
+				4975966D269851E80066C7AC /* ProximaNova-Bold.ttf in Resources */,
+				49759671269851E80066C7AC /* Rupee_Foradian.ttf in Resources */,
+				49759639269825560066C7AC /* Main.storyboard in Resources */,
+				4975965326982E870066C7AC /* RecipeCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DF8DC9AC6DF46F931D80ECB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HolaRecipes/Pods-HolaRecipes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C81ECD0F6D6F977F1C3B9EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HolaRecipes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4975962A269825560066C7AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				497596572698377F0066C7AC /* UIView+Extension.swift in Sources */,
+				4975965F2698515B0066C7AC /* Font.swift in Sources */,
+				49759636269825560066C7AC /* RecipeListVC.swift in Sources */,
+				49759632269825560066C7AC /* AppDelegate.swift in Sources */,
+				4975965D269847A50066C7AC /* Color.swift in Sources */,
+				497596582698377F0066C7AC /* UIColor+Extension.swift in Sources */,
+				49759646269826230066C7AC /* Recipe.swift in Sources */,
+				4975965226982E870066C7AC /* RecipeCell.swift in Sources */,
+				4975964A269826BD0066C7AC /* NetworkHandler.swift in Sources */,
+				49759648269826970066C7AC /* RecipeManager.swift in Sources */,
+				4975965B2698379E0066C7AC /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49759637269825560066C7AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49759638269825560066C7AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4975963C269825580066C7AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4975963D269825580066C7AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49759640269825580066C7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49759641269825580066C7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49759643269825580066C7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 271522646B33EB74C03A53E1 /* Pods-HolaRecipes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditi.HolaRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49759644269825580066C7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4143057BD92413909053BAE6 /* Pods-HolaRecipes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HolaRecipes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aditi.HolaRecipes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49759629269825560066C7AC /* Build configuration list for PBXProject "HolaRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49759640269825580066C7AC /* Debug */,
+				49759641269825580066C7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49759642269825580066C7AC /* Build configuration list for PBXNativeTarget "HolaRecipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49759643269825580066C7AC /* Debug */,
+				49759644269825580066C7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49759626269825560066C7AC /* Project object */;
+}

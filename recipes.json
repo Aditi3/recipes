@@ -1,0 +1,91 @@
+[
+  {
+    "description": "This dish proves that great ingredients elevate great dishes, no matter how simple. Make tender meatballs with equal parts ricotta and ground meat (pork and beef), deftly seasoned with garlic, oregano, and chile flakes. Spice your tomato sauce with the same herbs for continuity, and top the dish with crunchy olive oil-roasted breadcrumbs and protein-packed Parmigiano-Reggiano.",
+    "difficulty": 1,
+    "headline": "spicy tomato sauce and parmigiano-reggiano",
+    "id": "533143aaff604d567f8b4571",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/spaghetti-meatballs-arrabbiata.jpeg",
+    "name": "Spaghetti & Meatballs Arrabbiata"
+  },
+  {
+    "description": "This cozy staple brings any weeknight to life. Give chicken breasts the royal treatment by soaking them overnight in an herb-laced salt brine to lock in moisture and infuse flavor. Then marinate the chicken in a rosemary-herb mixture before roasting it to juicy perfection, just like Mom used to make. Roasted rainbow carrots and salted fingerling potatoes turn this dish into a meal that is simple, complete, and delicious.",
+    "difficulty": 1,
+    "headline": "fennel roasted carrots and fingerling potatoes",
+    "id": "53314247ff604d44808b4569",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/weeknight-roast-chicken-dinner.jpeg",
+    "name": "Weeknight Roast Chicken Dinner"
+  },
+  {
+    "description": "Taste the lip-smacking tartness of classic Carolina barbecue in this dish. Slow-roast pork shoulder, then shred it and toss it with signature yellow “Carolina Gold,\" a robust mustard and apple cider vinegar-infused sauce complete with smoky paprika, chipotle peppers, and Worcestershire. Complete the dish with creamy cabbage slaw and crisp kettle chips, on top of the sandwich for dynamic flavor and a pleasant crunch.",
+    "difficulty": 2,
+    "headline": "cole slaw and kettle chips",
+    "id": "53314276ff604d28828b456b",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/carolina-bbq-pork-sandwich.jpeg",
+    "name": "Carolina BBQ Pork Sandwich"
+  },
+  {
+    "description": "Marinate chicken with achiote, a Yucatecan spice paste, garlic, and orange juice before grilling. Then serve your flavorful chicken breast with cilantro-lime quinoa, black beans, and marinated tomatoes. Top it all off with crispy tortilla strips and crumbled cotija cheese.",
+    "difficulty": 1,
+    "headline": "grilled chicken, quinoa, black beans, tomatoes",
+    "id": "533143bfff604d44808b456a",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/not-your-mamas-chicken-taco-salad.jpeg",
+    "name": "Not Your Mama's Chicken Taco Salad"
+  },
+  {
+    "description": "Brine chicken breasts before frying for succulent flavor in this Chicken Parmesan, which is breaded in a scrumptious blend of panko breadcrumbs and Parmigiano-Reggiano. Then follow the classic method of melting mozzarella cheese over the top for gooey and crunchy in the every bite. As a fun twist, serve this delight on spaghetti with tomato sauce—simply drizzle on more Parmigiano-Reggiano and twirl away.",
+    "difficulty": 2,
+    "headline": "spaghetti, parmigiano-reggiano, tomato sauce",
+    "id": "5331430fff604d557f8b456d",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/chicken-parmesan.jpeg",
+    "name": "Chicken Parmesan"
+  },
+  {
+    "description": "We've all heard that much overused culinary phrase 'fusion food', but this recipe is fusion of a slightly different kind. With the onset of Winter Patrick has taken some decidedly seasonal squash and the deep, heady scent of rosemary and combined them with the lighter flavour of feta and wild rice. The squash takes a little bit of work with a vegetable peeler but once you've tackled and roasted it you'll never look back. We use any leftovers for butternut squash soup!",
+    "difficulty": 1,
+    "headline": "with Wild Rice, Feta and Pine Nuts",
+    "id": "53314328ff604d4d808b456b",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/roasted-rosemary.jpeg",
+    "name": "Roasted Rosemary Butternut Squash"
+  },
+  {
+    "description": "Top plenty of deep green, almost blue-black Tuscan kale with roasted chunks of brilliant orange butternut squash and bright red pickled cherries for a seriously colorful salad. A bit of bright white feta cheese adds a salty edge, and tan and toasted hazelnuts bring extra crunch.!",
+    "difficulty": 1,
+    "headline": "tuscan kale, butternut squash, pickled cherries",
+    "id": "53314343ff604d28828b456c",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/eat-a-rainbow-salad.jpeg",
+    "name": "Eat a Rainbow Salad"
+  },
+  {
+    "description": "Opa! This chicken dish pays homage to traditional spanakopita, but with its own twist. Start with grilled chicken breast marinated in shawarma spices, and surround it with a bed of spanakopita-inspired spinach basmati rice. On the side, add a lemon wedge and a traditional veggie tzatziki sauce with onions, carrots, cucumbers, and mint.",
+    "difficulty": 1,
+    "fats": "9 g",
+    "headline": "spinach, feta cheese, tzatziki",
+    "id": "53314398ff604d6c7a8b456a",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/spiced-chicken-spanakopita-rice.jpeg",
+    "name": "Spiced Chicken & Spanakopita Rice"
+  },
+  {
+    "description": "This gorgeous grain bowl is abounding in North African flavors, from the roasted fennel and rainbow carrots tossed in traditional ras el hanout spices, to the spicy harissa vinaigrette served on the side. Simply toss our tasty mix of couscous, currants, legumes, and arugula with dressing, sprinkle with sunflower and pumpkin seeds, and get ready to savor a taste of Marrakesh.",
+    "difficulty": 3,
+    "headline": "roasted fennel, carrots, couscous, harissa",
+    "id": "5252b20c301bbf46038b477e",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/moroccan-vegan-grain-bowl.jpeg",
+    "name": "Moroccan Vegan Grain Bowl"
+  },
+  {
+    "description": "Head Chef Patrick doesn't like fuss. He's always telling us that the best kind of food is simple, soulful grub that makes you feel loved. That said, every dinner is a chance to practice your presentation skills. Bigger plates are a great way of framing your food and a sprinkle of herbs or a drizzle of olive oil at the end gives everything a bit more pizzazz. For this recipe, we took classic Mexican ingredients and played with the presentation to create something that's as tasty to the eye as it is to the tongue. Arriba!",
+    "difficulty": 1,
+    "headline": "with Cucumber Salad",
+    "id": "5331430fff604d557f8b456c",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/sausage-risotto.jpeg",
+    "name": "Sausage Risotto"
+  },
+  {
+    "description": "Grill a delicate fillet of salmon and serve over a bed of brown rice along with edamame, sweet carrots, green onion, and pickled Persian cucumbers. Top with spicy ginger vinaigrette to taste.",
+    "difficulty": 1,
+    "headline": "carrots, cucumbers, edamame",
+    "id": "5331430fff604d557f8b456c",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/salmon-brown-rice-bowl.jpeg",
+    "name": "Salmon Brown Rice Bowl"
+  }
+]
