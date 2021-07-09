@@ -1,16 +1,24 @@
 PODS:
   - Alamofire (5.4.3)
+  - FloatRatingView (4.0)
+  - Kingfisher (6.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - FloatRatingView (~> 4)
+  - Kingfisher
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - FloatRatingView
+    - Kingfisher
 
 SPEC CHECKSUMS:
   Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  FloatRatingView: bb6bdddfbeec51b1d387b4bd50abc27b4dfccd48
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
 
-PODFILE CHECKSUM: eb11efc23ec6a63d7abdacc9b72763ad6c63b1bf
+PODFILE CHECKSUM: 07d2a90606de728997bcff2b50c376e370c41add
 
 COCOAPODS: 1.10.1

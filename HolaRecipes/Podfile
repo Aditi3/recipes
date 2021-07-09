@@ -7,5 +7,7 @@ target 'HolaRecipes' do
 
   # Pods for HolaRecipes
   pod 'Alamofire', '~> 5.2'
+  pod 'FloatRatingView', '~> 4'
+  pod 'Kingfisher'
 
 end
