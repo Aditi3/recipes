@@ -30,8 +30,8 @@ class RecipeListVC: UIViewController {
         self.title = K.getDate()
         if let navigationBar = self.navigationController?.navigationBar {
             navigationBar.barStyle = UIBarStyle.default;
-            navigationBar.barTintColor = Color.Purple
-            navigationBar.backgroundColor = Color.Purple
+            navigationBar.barTintColor = Color.JadeGreen
+            navigationBar.backgroundColor = Color.JadeGreen
             navigationBar.isTranslucent = false
             navigationBar.prefersLargeTitles = true
         }

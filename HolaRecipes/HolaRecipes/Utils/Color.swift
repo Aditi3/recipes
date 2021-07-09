@@ -39,7 +39,6 @@ struct Color {
     
     static let GreyBlack = UIColor(hex: "333333, alpha: 1")//-- RGB: 51 51 51
     
-    
     static let PaleRed = UIColor(hex: "DA3A25")//-- RGB: 218 58 37
     static let JadeGreen = UIColor(hex: "27AB5C")//-- RGB: 39 171 92
     
