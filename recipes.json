@@ -4,7 +4,7 @@
     "difficulty": 0,
     "headline": "spicy tomato sauce and parmigiano-reggiano",
     "id": "533143aaff604d567f8b4571",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/spaghetti-meatballs-arrabbiata.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/spaghetti-meatballs-arrabbiata.jpeg",
     "name": "Spaghetti & Meatballs Arrabbiata"
   },
   {
@@ -12,7 +12,7 @@
     "difficulty": 0,
     "headline": "fennel roasted carrots and fingerling potatoes",
     "id": "53314247ff604d44808b4569",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/weeknight-roast-chicken-dinner.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/weeknight-roast-chicken-dinner.jpeg",
     "name": "Weeknight Roast Chicken Dinner"
   },
   {
@@ -20,7 +20,7 @@
     "difficulty": 1,
     "headline": "cole slaw and kettle chips",
     "id": "53314276ff604d28828b456b",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/carolina-bbq-pork-sandwich.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/carolina-bbq-pork-sandwich.jpeg",
     "name": "Carolina BBQ Pork Sandwich"
   },
   {
@@ -28,7 +28,7 @@
     "difficulty": 0,
     "headline": "grilled chicken, quinoa, black beans, tomatoes",
     "id": "533143bfff604d44808b456a",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/not-your-mamas-chicken-taco-salad.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/not-your-mamas-chicken-taco-salad.jpeg",
     "name": "Not Your Mama's Chicken Taco Salad"
   },
   {
@@ -36,7 +36,7 @@
     "difficulty": 1,
     "headline": "spaghetti, parmigiano-reggiano, tomato sauce",
     "id": "5331430fff604d557f8b456d",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/chicken-parmesan.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/chicken-parmesan.jpeg",
     "name": "Chicken Parmesan"
   },
   {
@@ -44,7 +44,7 @@
     "difficulty": 0,
     "headline": "with Wild Rice, Feta and Pine Nuts",
     "id": "53314328ff604d4d808b456b",
-    "image": "",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/roasted-rosemary.jpeg",
     "name": "Roasted Rosemary Butternut Squash"
   },
   {
@@ -52,7 +52,7 @@
     "difficulty": 0,
     "headline": "tuscan kale, butternut squash, pickled cherries",
     "id": "53314343ff604d28828b456c",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/eat-a-rainbow-salad.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/eat-a-rainbow-salad.jpeg",
     "name": "Eat a Rainbow Salad"
   },
   {
@@ -61,7 +61,7 @@
     "fats": "9 g",
     "headline": "spinach, feta cheese, tzatziki",
     "id": "53314398ff604d6c7a8b456a",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/spiced-chicken-spanakopita-rice.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/spiced-chicken-spanakopita-rice.jpeg",
     "name": "Spiced Chicken & Spanakopita Rice"
   },
   {
@@ -69,7 +69,7 @@
     "difficulty": 2,
     "headline": "roasted fennel, carrots, couscous, harissa",
     "id": "5252b20c301bbf46038b477e",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/moroccan-vegan-grain-bowl.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/moroccan-vegan-grain-bowl.jpeg",
     "name": "Moroccan Vegan Grain Bowl"
   },
   {
@@ -77,7 +77,7 @@
     "difficulty": 0,
     "headline": "with Cucumber Salad",
     "id": "5331430fff604d557f8b456c",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/sausage-risotto.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/sausage-risotto.jpeg",
     "name": "Sausage Risotto"
   },
   {
@@ -85,7 +85,7 @@
     "difficulty": 0,
     "headline": "carrots, cucumbers, edamame",
     "id": "5331430fff604d557f8b456c",
-    "image": "https://github.com/Aditi3/recipes/blob/develop/Documentation/Images/salmon-brown-rice-bowl.jpeg",
+    "image": "https://raw.githubusercontent.com/Aditi3/recipes/develop/Documentation/Images/salmon-brown-rice-bowl.jpeg",
     "name": "Salmon Brown Rice Bowl"
   }
 ]
