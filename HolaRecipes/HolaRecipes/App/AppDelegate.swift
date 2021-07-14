@@ -25,25 +25,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
 }
 
-//extension UIApplication {
-//
-//    var statusBarUIView: UIView? {
-//        let tag = 1000
-//        let keyWindow = UIApplication.shared.connectedScenes
-//            .map({$0 as? UIWindowScene})
-//            .compactMap({$0})
-//            .first?.windows.first
-//
-//        if let statusBar = keyWindow?.viewWithTag(tag) {
-//            return statusBar
-//        } else {
-//            let height = keyWindow?.windowScene?.statusBarManager?.statusBarFrame ?? .zero
-//            let statusBarView = UIView(frame: height)
-//            statusBarView.tag = tag
-//            statusBarView.layer.zPosition = 999999
-//
-//            keyWindow?.addSubview(statusBarView)
-//            return statusBarView
-//        }
-//    }
-//}
