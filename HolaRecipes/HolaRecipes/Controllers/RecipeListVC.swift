@@ -25,20 +25,20 @@ class RecipeListVC: UIViewController {
     // MARK: - Set/ Update to UI
     
     /// Setup View properties of RecipeVC
-    func setUpLayout() {
+    private func setUpLayout() {
         
         self.title = K.getDate()
         if let navigationBar = self.navigationController?.navigationBar {
-            navigationBar.barStyle = UIBarStyle.default;
-            navigationBar.barTintColor = Color.JadeGreen
-            navigationBar.backgroundColor = Color.JadeGreen
-            navigationBar.isTranslucent = false
+//            navigationBar.barStyle = UIBarStyle.default;
+//            navigationBar.barTintColor = Color.JadeGreen
+//            navigationBar.backgroundColor = Color.JadeGreen
+//            navigationBar.isTranslucent = false
             navigationBar.prefersLargeTitles = true
         }
     }
     
     /// Configure TableView properties
-    func configureTableView() {
+    private func configureTableView() {
         self.recipeTableView.delegate = self
         self.recipeTableView.dataSource = self
         
@@ -47,14 +47,14 @@ class RecipeListVC: UIViewController {
     }
     
     /// Register the Tableview Cell XIB
-    func registerCell() {
+    private func registerCell() {
         self.recipeTableView.register(UINib(nibName: "RecipeCell", bundle: Bundle.main), forCellReuseIdentifier: K.CellIdentifier.recipeCell)
     }
     
     // MARK: - Request Recipes API
     
     /// Request to fetch the Recipes List
-    func getRecipes() {
+    private func getRecipes() {
         ///[weak self]  ensures that once the completion handler returns some code, the app can release the memory
         RecipeManager().fetchRecipes { [weak self] recipes in
             /// Handles the success and received data
