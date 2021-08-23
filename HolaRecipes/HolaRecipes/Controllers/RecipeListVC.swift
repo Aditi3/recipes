@@ -9,14 +9,15 @@ import UIKit
 
 class RecipeListVC: UIViewController {
     
-    var recipes = Recipes()
     @IBOutlet weak var recipeTableView: UITableView!
+   
+    var recipes = Recipes()
+    fileprivate var recipeManager = RecipeManager()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setUpLayout()
-        registerCell()
         configureTableView()
         getRecipes()
     }
@@ -26,7 +27,6 @@ class RecipeListVC: UIViewController {
     
     /// Setup View properties of RecipeVC
     private func setUpLayout() {
-        
         self.title = K.getDate()
         if let navigationBar = self.navigationController?.navigationBar {
             navigationBar.prefersLargeTitles = true
@@ -35,16 +35,14 @@ class RecipeListVC: UIViewController {
     
     /// Configure TableView properties
     private func configureTableView() {
+        
         self.recipeTableView.delegate = self
         self.recipeTableView.dataSource = self
         
         self.recipeTableView.separatorStyle = .none
         self.recipeTableView.allowsSelection = false
-    }
-    
-    /// Register the Tableview Cell XIB
-    private func registerCell() {
-        self.recipeTableView.register(UINib(nibName: "RecipeCell", bundle: Bundle.main), forCellReuseIdentifier: K.CellIdentifier.recipeCell)
+        
+        RecipeCell.register(with: recipeTableView)
     }
     
     // MARK: - Request Recipes API
@@ -52,7 +50,7 @@ class RecipeListVC: UIViewController {
     /// Request to fetch the Recipes List
     private func getRecipes() {
         ///[weak self]  ensures that once the completion handler returns some code, the app can release the memory
-        RecipeManager().fetchRecipes { [weak self] recipes in
+        recipeManager.fetchRecipes { [weak self] recipes in
             /// Handles the success and received data
             if let self = self {
                 self.recipes = recipes
@@ -85,8 +83,8 @@ extension RecipeListVC:  UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: K.CellIdentifier.recipeCell , for: indexPath) as! RecipeCell
-        cell.configureRecipeCell(recipe: recipes[indexPath.row])
+        let recipe = recipes[indexPath.row]
+        let cell = RecipeCell.dequeue(from: tableView, for: indexPath, with: recipe)
         return cell
     }
 }
