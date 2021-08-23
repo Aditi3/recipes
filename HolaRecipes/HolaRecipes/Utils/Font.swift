@@ -8,7 +8,7 @@
 import UIKit
 
 struct Font {
-
+    
     static func regularFontWithSize(ofSize fontSize: CGFloat) -> UIFont {
         return UIFont(name:"Lato-Regular", size:fontSize)!
     }
@@ -20,11 +20,11 @@ struct Font {
     static func boldFontWithSize(ofSize fontSize: CGFloat) -> UIFont {
         return UIFont(name:"Lato-Bold", size:fontSize)!
     }
-
+    
     static func lightFontWithSize(ofSize fontSize: CGFloat) -> UIFont {
         return UIFont(name:"Lato-Light", size:fontSize)!
     }
-   
+    
     static func italicFontWithSize(ofSize fontSize: CGFloat) -> UIFont {
         return UIFont(name:"Lato-Italic", size:fontSize)!
     }

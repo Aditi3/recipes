@@ -16,10 +16,6 @@ struct K {
         static let baseApiUrl = "https://raw.githubusercontent.com/Aditi3"
     }
     
-    struct CellIdentifier {
-        static let recipeCell = "recipeCell"
-    }
-    
     static func getDate() -> String {
         let date = Date.init()
         let formatter = DateFormatter()

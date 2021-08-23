@@ -10,6 +10,7 @@ import UIKit
 class RecipeListVC: UIViewController {
     
     @IBOutlet weak var recipeTableView: UITableView!
+   
     var recipes = Recipes()
     fileprivate var recipeManager = RecipeManager()
     
@@ -34,7 +35,7 @@ class RecipeListVC: UIViewController {
     
     /// Configure TableView properties
     private func configureTableView() {
-      
+        
         self.recipeTableView.delegate = self
         self.recipeTableView.dataSource = self
         
@@ -43,7 +44,7 @@ class RecipeListVC: UIViewController {
         
         RecipeCell.register(with: recipeTableView)
     }
-
+    
     // MARK: - Request Recipes API
     
     /// Request to fetch the Recipes List
